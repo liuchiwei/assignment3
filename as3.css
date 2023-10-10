@@ -1,0 +1,60 @@
+.navbar {
+    background-color: lightblue !important; 
+}
+
+.navbar-light .navbar-nav .nav-link {
+    color: navy !important; 
+}
+
+.navbar-light .navbar-toggler-icon {
+    background-color: tomato;
+}
+
+
+
+#header::before {
+content: "";
+position: absolute;
+top: 0;
+left: 0;
+width: 100%; 
+height: 100%;
+background-image: url("https://liuchiwei.github.io/assignment3/0.png");
+background-position: center;
+background-repeat: no-repeat;
+background-size: cover;
+z-index: -1;
+}
+
+
+#section1 > div:first-child {
+background-image: url("https://liuchiwei.github.io/assignment3/2.png");
+background-position: center;
+background-repeat: no-repeat;
+background-size: cover;
+    z-index:-1;
+}
+
+#section2 > div:first-child {
+background-image: url("https://liuchiwei.github.io/assignment3/1.png");
+background-position: center;
+background-repeat: no-repeat;
+background-size: cover;
+z-index:-1;
+}
+
+#section3 > div:first-child {
+background-image: url("https://liuchiwei.github.io/assignment3/5.png");
+background-position: center;
+background-repeat: no-repeat;
+background-size: cover;
+z-index:-1;
+}
+
+#section4 > div:first-child {
+background-image: url("https://liuchiwei.github.io/assignment3/7.png");
+background-position: center;
+background-repeat: no-repeat;
+background-size: cover;
+z-index:-1;
+}
